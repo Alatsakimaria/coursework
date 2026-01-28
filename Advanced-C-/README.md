@@ -11,34 +11,39 @@ This directory contains the source code and implementations for the Advanced C m
 
 - ### Pointers/: Deep dives into function pointers, pointer arithmetic, and multi-dimensional arrays.
 
-🛠️ Features & Concepts Covered
-Dynamic Memory Allocation: Handling heap memory and avoiding memory leaks (checked with Valgrind).
+## Features & Concepts Covered
+- Dynamic Memory Allocation: Handling heap memory and avoiding memory leaks.
 
-Structures & Unions: Using complex data types to model real-world data.
+- Structures & Unions: Using complex data types to model real-world data.
 
-Bitwise Operations: Low-level data manipulation.
+- Bitwise Operations: Low-level data manipulation.
 
-Header Files & Modularization: Organizing code into .h and .c files for scalability.
+- Header Files & Modularization: Organizing code into .h and .c files for scalability.
 
-Makefiles: Automated build processes for compiling multiple source files.
+- Makefiles: Automated build processes for compiling multiple source files.
 
-💻 How to Run
+## How to Run
 To compile and run any of the programs, ensure you have gcc installed.
 
-Clone the repository:
+### Clone the repository:
 
-Bash
+```bash
 git clone https://github.com/Alatsakimaria/coursework.git
 cd coursework/Advanced-C-
-Compile a specific file:
+```
+### Compile a specific file:
 
-Bash
+```bash
 gcc -o program_name main.c
-Execute:
+```
 
-Bash
+### Execute:
+
+```bash
 ./program_name
-📝 Author
-Alatsaki Maria
+```
 
-GitHub Profile
+## Author
+
+Created by [Maria Alatsaki](https://github.com/Alatsakimaria)
+
