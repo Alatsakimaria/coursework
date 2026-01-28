@@ -1,0 +1,26 @@
+
+Number of samples
+	class 0 (no disease)   : 160
+	class 1 (with disease) : 137
+
+means = [
+    [129.175, 158.58125, 243.49375], # Means of class 0 for features ['trestbps', 'thalach','chol']
+    [134.635,139.109, 251.854 ]      # Means of class 1 for features ['trestbps', 'thalach','chol']
+]
+
+covs = [
+    # Conv of class 0 for features (3x3) ['trestbps', 'thalach','chol']
+    [
+        [268.107547,    6.067453,    91.076572],
+        [6.067453,  362.647445,    19.535102],
+        [91.076572,   19.535102,  2889.874175]
+    ],
+    
+    # Conv of class 1 for features (3x3) ['trestbps', 'thalach','chol']
+    [
+        [357.086410,    7.047606,   133.166917],
+        [7.047606,  515.774689,    65.310219],
+        [133.166917,   65.310219,  2468.096179]
+    ]
+]
+
